@@ -1,0 +1,56 @@
+{
+  "author": "Peter Kruzlics <peter.kruzlics@intelex.com> (https://github.com/pkruzlics)",
+  "name": "ReactJS-Redux-Boilerplate",
+  "description": "Boilerplate for ReactJS-Redux web app",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-react": "^5.1.1",
+    "react-addons-test-utils": "^15.1.0",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "cors": "^2.7.1",
+    "es6-promise": "^3.2.1",
+    "express": "^4.13.4",
+    "history": "^3.0.0",
+    "json-loader": "^0.5.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-router": "^1.0.0-beta8",
+    "redux-thunk": "^2.1.0",
+    "reduxsauce": "^0.2.0",
+    "seamless-immutable": "^6.1.1",
+    "url-loader": "^0.5.7",
+    "xmldom": "^0.1.22"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkruzlics/ReactJS-Redux-Boilerplate.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "version": "0.1.0"
+}
